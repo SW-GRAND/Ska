@@ -39,6 +39,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.A_matrix_dgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.X_vector_dgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B_vector_dgv)).BeginInit();
@@ -165,6 +166,15 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Вектор В";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(353, 16);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -172,6 +182,7 @@
             this.BackColor = System.Drawing.Color.Maroon;
             this.BackgroundImage = global::Гаус.Properties.Resources._12;
             this.ClientSize = new System.Drawing.Size(982, 501);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -208,6 +219,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
     }
 }
 
